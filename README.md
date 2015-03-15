@@ -7,12 +7,15 @@
 ## Installation
 
 ```sh
-npm install gulp-magix-combine
+npm install --save-dev gulp-magix-combine
 ```
 
 ## Usage
 
 ```javascript
+var gulp    = require('gulp');
+var rename  = require('gulp-rename');
+var uglify  = require('gulp-uglify');
 var combine = require('gulp-magix-combine');
 
 gulp.task('compress', function() {
@@ -36,5 +39,6 @@ gulp.task('compress', function() {
 - `magixVersion`
     
     默认为1.0，使用Magix 1.0的view拼接方式
+    
     如果使用1.0以上版本的Magix，必须指定magixVersion为2.0
 
