@@ -1,8 +1,6 @@
 # gulp-magix-combine
 
-> Magix 应用view代码压缩工具
-
-[![NPM version](https://img.shields.io/badge/npm-v1.0.0-orange.svg)](https://www.npmjs.org/package/gulp-magix-combine)
+[![NPM version](https://img.shields.io/badge/npm-v1.0.1-orange.svg)](https://www.npmjs.org/package/gulp-magix-combine)
 
 ## Installation
 

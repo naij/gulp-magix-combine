@@ -1,7 +1,7 @@
 {
   "name": "gulp-magix-combine",
-  "description": "Compine files for magix app",
-  "version": "1.0.0",
+  "description": "Magix应用 view代码压缩工具",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/naij/gulp-magix-combine"
