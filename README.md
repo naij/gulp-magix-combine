@@ -1,6 +1,6 @@
 # gulp-magix-combine
 
-[![NPM version](https://img.shields.io/badge/npm-v1.0.1-orange.svg)](https://www.npmjs.org/package/gulp-magix-combine)
+[![NPM version](https://img.shields.io/badge/npm-v1.0.2-orange.svg)](https://www.npmjs.org/package/gulp-magix-combine)
 
 ## Installation
 
@@ -36,7 +36,7 @@ gulp.task('compress', function() {
 
 - `magixVersion`
     
-    默认为1.0，使用Magix 1.0的view拼接方式
+    默认支持的Magix版本为1.0
     
-    如果使用1.0以上版本的Magix，必须指定magixVersion为2.0
+    如果你使用的Magix版本是1.0以上，请指定magixVersion为2.0
 
