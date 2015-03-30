@@ -24,7 +24,9 @@ function combine(js, html, v) {
 
   if (v == 1.0) {
     newViewContent = jsProc.addProp4v1(newViewContent, minTempContent);
-  } else {
+  } else if (v == 1.1 || v == 1.2) {
+    newViewContent = jsProc.addProp4v1plus(newViewContent, minTempContent);
+  } else if (v == 2.0) {
     newViewContent = jsProc.addProp4v2(newViewContent, minTempContent);
   }
   
